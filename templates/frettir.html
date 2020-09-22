@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %} Frettir {%endblock%}
+{% block content %}
+<main class="main">
+   <section> 
+        <h1>
+            HasarFréttir
+        </h1>
+        <h2> Þröstur veldur 3 heimstyrjuöld </h2>
+        <img src="/static/mynd{{ 0 }}.jpg">
+    </section>
+    <section>
+        <h3>Fréttir dagsinns</h3>
+        <ol>
+            {% for item in frettir %}
+            <li><a href="/frett/{{ item[0] }}">{{ item[1] }}</a></li>
+            {% endfor %}
+        </ol>
+    </section>
+    <p><a href="/a-hluti">Verkefni 2.1 Dýnamískt ráp</a></p>
+    <p><a href="/">Forsíða</a></p>
+</main>
+    
+{%endblock%}

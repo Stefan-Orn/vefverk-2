@@ -1,0 +1,47 @@
+body{
+    background-color: whitesmoke;
+    color: blue;
+    
+}
+body img{
+    width: 500px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.frettir{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em;
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.index1{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.index2{
+    margin: 5px;
+    text-align: center;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 5px;
+}
